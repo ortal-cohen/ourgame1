@@ -1,0 +1,60 @@
+﻿.ui-button {
+-webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 18px;
+  background: #FF829D;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffadbf 2px;
+  text-decoration: none;
+}
+
+    .ui-button:hover, .ui-button:focus {
+background: #ffabbd;
+  text-decoration: none;
+    }
+
+    .ui-button:active,
+    .ui-button.active {
+        position: relative;
+        top: 1px;
+        
+    }
+    button.disabled,
+    .ui-button.disabled:hover,
+    .ui-button.disabled:focus,
+    .ui-button.disabled:active,
+    .ui-button.disabled.active,
+    .ui-button[disabled]:hover,
+    .ui-button[disabled]:focus,
+    .ui-button[disabled]:active,
+    .ui-button[disabled].active,
+    button[disabled],
+    fieldset[disabled] .ui-button:hover,
+    fieldset[disabled] .ui-button:focus,
+    fieldset[disabled] .ui-button:active,
+    fieldset[disabled] .ui-button.active {
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        background: none;
+        background: none;
+        background: none;
+        background: none;
+        background: none;
+        background: none;
+        filter: none;
+        background-color: #B8B8BD;
+        color: #9F9FA1;
+        cursor: context-menu;
+        opacity: 0.7;
+    }
+
+    #mycb{
+        direction:rtl;
+        text-align:right;
+        font-size:10pt;
+        border-radius:3px;
+    }
